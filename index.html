@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
@@ -18,7 +19,8 @@
         </ul>
       </nav>
       <ul>
-        <li><a href="#">info@devstudio.com</a></li>
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <br />
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
@@ -30,7 +32,7 @@
           Eфективное решение<br />
           для вашего бизнеса
         </h1>
-        <button type="button">заказать услугу</button>
+        <button type="button" class="click">заказать услугу</button>
       </section>
 
       <!--features-->
@@ -62,9 +64,11 @@
       <!--our-work-->
       <section>
         <h2>Чем мы занимаемся</h2>
-        <img src="./images/work/box1.jpg" alt="разметка" />
-        <img src="./images/work/box2.jpg" alt="подбор стилей" />
-        <img src="./images/work/box3.jpg" alt="подбор цветов" />
+        <ul>
+          <li><img src="./images/work/box1.jpg" alt="разметка" /></li>
+          <li><img src="./images/work/box2.jpg" alt="подбор стилей" /></li>
+          <li><img src="./images/work/box3.jpg" alt="подбор цветов" /></li>
+        </ul>
       </section>
       <!--Our-team-->
       <section>
@@ -97,13 +101,12 @@
     </main>
     <!--footer -->
     <footer>
+      <a href="info@dvstudio.com">WebStudio</a>
       <address>
-        <a href="info@dvstudio.com">WebStudio</a>
-        <p>
-          г.Киев, пр.т Леси Украинки, 26 <br />
-          info@devstudio.com<br />
-          +38 096 111 11 11
-        </p>
+        <p>г.Киев, пр.т Леси Украинки, 26</p>
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <br />
+        <a href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>
